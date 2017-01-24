@@ -1,0 +1,3 @@
+# JavaLinearSearchinArray
+
+Java Algorithms
