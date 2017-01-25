@@ -13,8 +13,9 @@ for(int i=0; i<a.length; i++){
 	for(j=0; j <a.length-i -1; j++){
 		
 		if(a[j]>a[j+1]){
-			t=a[j];
-			a[j] = a[j+1];
+		// 13>2 TRUE
+			t=a[j]; // 13
+			a[j] = a[j+1]; //13 = a[3]
 			a[j+1] = t; 
 		}
 	}
