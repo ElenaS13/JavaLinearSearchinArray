@@ -5,9 +5,9 @@ public class BubbleSortArrays {
 		
 		int[] houseNums = {23, 76, 15,47,14,38, 52};
 		
-		System.out.print("The original sequence is: \n");
+		//System.out.print("The original sequence is: \n");
 		for(int i =0; i<houseNums.length; i++){
-			System.out.println(houseNums[i] + ", ");
+			//System.out.println(houseNums[i] + ", ");
 		}
 		
 		sortThem(houseNums);
@@ -17,7 +17,10 @@ public class BubbleSortArrays {
 		int temp;
 		
 		for(int i =arr.length-1; i>0;i--){
+			
+			
 			for(int j=0; j<i; j++){
+				
 				if(arr[j]>arr[j+1]){
 					temp = arr[j];
 					arr[j]=arr[j+1];
